@@ -5,7 +5,7 @@ public class Book extends LibraryItem {
     private static final long serialVersionUID = 2L;
 
     private String isbn;
-    private String genre
+    private String genre;
 
     public Book(String itemId, String title, String author, String isbn, String genre) {
         super(itemId, title, author);
